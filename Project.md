@@ -49,8 +49,7 @@ and number of tracks released per year (tracks_per_year) were numeric variables,
 We began with a broad overview of the categorical variable.
 Of the 547 artists we analyzed, 371 were solo artists and 176 were groups, or bands.
 We also thought it would be interesting to use the means of our numeric variables to see what an “average” artist would look like from our data. 
-The "average" artist from our dataset would be 18 years old, release roughly 19 tracks per year, be a solo artist, and have 247 tracks thus far. This "average" 
-did not make a lot of sense as an 18 year-old with 247 tracks is not "common." However, it was still fairly interesting. 
+The "average" artist from our dataset would have 18 years of experience, releases roughly 19 tracks per year, be a solo artist, and have 247 tracks thus far.
 
 We then viewed each numeric variable in the context of artist type.
 <p align="center">
@@ -101,7 +100,7 @@ All features are scored as probabilities meaning that years of experience handle
 
 ## Making Predictions/Explaining Significance
 
-That being said, our model did not predict accurately with the features we have.  When we input “the average artist”  according to our data, our model predicted that they would get 9,594,534,528 streams on spotify.  This is almost 7 billion more than the top artist has in total.  
+That being said, our model did not predict accurately with the features we have.  When we input “the average artist”  according to our data, our model predicted that they would get 9,594,534,528 streams on spotify.  This is almost 5 billion more than the top artist has in total.  
 
 After evaluating all of the coefficients from all of our other models we found that none of our features were very significant and therefore were not useful in making predictions for other bands.  As mentioned above, we spent a lot of time looking for data, but found that the features that we thought would be significant, were not.  We think that there are othe features out there that could prove to have some significance and ability in predicting how many streams an artist is likely to achieve on spotify.  
 
